@@ -160,7 +160,7 @@
   <footer>
     <p>&copy; Desenvolvedor: Leandro Barbosa de Souza</p>
   </footer>
-  <script src="js/script.js"></script>
+  
 </body>
 
 </html>
