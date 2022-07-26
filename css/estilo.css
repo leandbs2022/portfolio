@@ -42,6 +42,7 @@ p{
     flex-direction: column;
     align-items: center;
 }
+/*rodape*/
 footer {
     display: flex;
     flex-direction: column;
@@ -50,6 +51,7 @@ footer {
     text-align: center;
     font-style: italic;
 }
+/*Divs*/
 #DivLateral{
     position:relative;
     border-width:2px;
@@ -72,9 +74,7 @@ footer {
     border-radius: 10px;
     background-color: rgb(241, 134, 33);
 }
-p.titulo{
-    text-align: center;
-}
+
 #l1{
     background-color: rgba(231, 231, 209, 0.8);
     border-radius: 20px;
@@ -86,6 +86,19 @@ p.titulo{
     border-radius: 20px;
     font-style:normal;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*titulos sombra*/
+.titulo{
+    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+   color: white;
+   font: 1.5em Georgia, "Bitstream Charter", "URW Bookman L", "Century Schoolbook L", serif;
+}
+.titulo2{
+    text-shadow: 1px 1px 2px white, 0 0 1em wheat, 0 0 0.2em whitesmoke;
+    color: black;
+    font: 1.5em Georgia, "Bitstream Charter", "URW Bookman L", "Century Schoolbook L", serif;
+    font-size: 12px;
+
 }
 .group:before,
 .group:after {
@@ -183,6 +196,7 @@ p.titulo{
 .main-timeline .timeline:nth-child(4n+3) .title{ color: #FF3E7D; }
 .main-timeline .timeline:nth-child(4n+4) .timeline-content:before{ background-color: #7438B9; }
 .main-timeline .timeline:nth-child(4n+4) .title{ color: #7438B9; }
+/*controle responsivo*/
 @media screen and (max-width:767px){
     .main-timeline .timeline,
     .main-timeline .timeline:nth-child(even){
@@ -190,6 +204,10 @@ p.titulo{
         margin: 0 0 30px;
     }
     section{
+        width: 100%;
+        margin: 0 0 30px;
+    }
+    div{
         width: 100%;
         margin: 0 0 30px;
     }
@@ -218,6 +236,10 @@ p.titulo{
         top: 80px;
         left: 50%;
         right: auto;
+    }
+    div{
+        width: 100%;
+        margin: 0 0 30px;
     }
     section{
         width: 100%;
