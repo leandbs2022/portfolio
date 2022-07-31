@@ -207,39 +207,45 @@ footer {
         text-align: center;
         height: auto;
         width: auto;
-        left: 0;
+        left: auto;
+        right: auto
     }
     section{
         text-align: center;
         height: auto;
         width: auto;
-        left: 0;
+        left: auto;
+        right: auto
     }
    i#foto{
         background: url('../img/icons8-javascript-96.png') no-repeat center;   
         text-align: center;
         height: auto;
         width: auto;
-        left: 0;
+        left: auto;
+        right: auto
     }
     .foto{
         background-image: url("../img/icons8-javascript-32.png"); 
         text-align: center;
         height: auto;
         width: auto;
-        left: 0;
+        left: auto;
+        right: auto
     }
     #DivLateral{
         text-align: center;
         height: auto;
         width: auto;
-        left: 0;
+        left: auto;
+        right: auto
     }
     #DivA{
         text-align: center;
         height: auto;
         width: auto;
-        left: 0;
+        left: auto;
+        right: auto
     }
 }
 @media screen and (max-width:576px){
@@ -271,38 +277,44 @@ footer {
         text-align: center;
         height: auto;
         width: auto;
-        left: 0;
+        left: auto;
+        right: auto
     }
     section{
         text-align: center;
         height: auto;
         width: auto;
-        left: 0;
+        left: auto;
+        right: auto
     }
    i#foto{
         background: url('../img/icons8-javascript-96.png') no-repeat center;   
         text-align: center;
         height: auto;
         width: auto;
-        left: 0;
+        left: auto;
+        right: auto
     }
     .foto{
         background-image: url("../img/icons8-javascript-32.png"); 
         text-align: center;
         height: auto;
         width: auto;
-        left: 0;
+        left: auto;
+        right: auto
     }
     #DivLateral{
         text-align: center;
         height: auto;
         width: auto;
-        left: 0;
+        left: auto;
+        right: auto
     }
     #DivA{
         text-align: center;
         height: auto;
         width: auto;
-        left: 0;
+        left: auto;
+        right: auto
     }
 }
