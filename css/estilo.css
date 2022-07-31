@@ -203,13 +203,43 @@ footer {
         width: 100%;
         margin: 0 0 30px;
     }
-    section{
-        width: 100%;
-        margin: 0 0 30px;
-    }
     div{
-        width: 100%;
-        margin: 0 0 30px;
+        text-align: center;
+        height: auto;
+        width: auto;
+        left: 0;
+    }
+    section{
+        text-align: center;
+        height: auto;
+        width: auto;
+        left: 0;
+    }
+   i#foto{
+        background: url('../img/icons8-javascript-96.png') no-repeat center;   
+        text-align: center;
+        height: auto;
+        width: auto;
+        left: 0;
+    }
+    .foto{
+        background-image: url("../img/icons8-javascript-32.png"); 
+        text-align: center;
+        height: auto;
+        width: auto;
+        left: 0;
+    }
+    #DivLateral{
+        text-align: center;
+        height: auto;
+        width: auto;
+        left: 0;
+    }
+    #DivA{
+        text-align: center;
+        height: auto;
+        width: auto;
+        left: 0;
     }
 }
 @media screen and (max-width:576px){
@@ -238,19 +268,41 @@ footer {
         right: auto;
     }
     div{
-        width: 100%;
-        margin: 0 0 30px;
+        text-align: center;
+        height: auto;
+        width: auto;
+        left: 0;
     }
     section{
-        width: 100%;
-        margin: 0 0 30px;
+        text-align: center;
+        height: auto;
+        width: auto;
+        left: 0;
     }
    i#foto{
         background: url('../img/icons8-javascript-96.png') no-repeat center;   
+        text-align: center;
+        height: auto;
+        width: auto;
+        left: 0;
     }
     .foto{
         background-image: url("../img/icons8-javascript-32.png"); 
-        width: 400px;
-        height: 400px;
+        text-align: center;
+        height: auto;
+        width: auto;
+        left: 0;
+    }
+    #DivLateral{
+        text-align: center;
+        height: auto;
+        width: auto;
+        left: 0;
+    }
+    #DivA{
+        text-align: center;
+        height: auto;
+        width: auto;
+        left: 0;
     }
 }
