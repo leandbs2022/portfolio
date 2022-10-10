@@ -1,30 +1,58 @@
 body {
     background: rgb(226, 230, 236);
     font: normal 15pt Arial;
+    margin: 0;
+    padding: 0;
 }
-p{
-    font-family:Arial, Helvetica, sans-serif;
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-style: italic;
 }
+.esquerda{
+    position:relative;
+    text-align: left;
+    justify-items: left;
+    display: flexbox;
+
+}
+.titulo02 {
+    border-radius: 50%;
+    text-align: center;
+    border-color: black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px#0a0a0a;
+    background-color: rgba(93, 224, 89, 0.12);
+}
+
 header {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     align-items: center;
     color: rgb(20, 19, 19);
     text-align: center;
 }
-h1,h2,h3{
+
+h1,
+h2,
+h3 {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
-table, th, td {
+
+table,
+th,
+td {
     border: 1px solid white;
     border-collapse: collapse;
-  }
-  th, td {
+}
+
+th,
+td {
     border-style: solid;
-  }
+}
+
 section {
     background: white;
     border-radius: 10px;
@@ -32,16 +60,19 @@ section {
     width: 1000px;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
-    text-align:justify;
-}
-p{
     text-align: justify;
 }
+
+p {
+    text-align: justify;
+}
+
 .centro {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 /*rodape*/
 footer {
     display: flex;
@@ -51,79 +82,95 @@ footer {
     text-align: center;
     font-style: italic;
 }
+
 /*Divs*/
-#DivLateral{
-    position:relative;
-    border-width:2px;
+#DivLateral {
+    position: relative;
+    border-width: 2px;
     left: 25px;
-    width:50%;
+    width: 50%;
     height: auto;
     float: left;
     align-items: center;
     border-radius: 10px;
     background-color: rgb(241, 210, 33);
 }
-#DivA{
+
+#DivA {
     position: relative;
-    border-width:2px;
+    border-width: 2px;
     width: 50%;
-    height:auto;
-    left:-3px;
+    height: auto;
+    left: -3px;
     float: left;
     align-items: center;
     border-radius: 10px;
     background-color: rgb(241, 134, 33);
 }
 
-#l1{
+#l1 {
     background-color: rgba(231, 231, 209, 0.8);
     border-radius: 20px;
-    font-style:normal;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
-#l2{
-    background-color: rgba(89, 170, 224,.8);
+
+#l2 {
+    background-color: rgba(89, 170, 224, .8);
     border-radius: 20px;
-    font-style:normal;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 /*titulos sombra*/
-.titulo{
+.titulo {
     text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
-   color: white;
-   font: 1.5em Georgia, "Bitstream Charter", "URW Bookman L", "Century Schoolbook L", serif;
+    color: white;
+    font: 1.5em Georgia, "Bitstream Charter", "URW Bookman L", "Century Schoolbook L", serif;
+
 }
-.titulo2{
+
+.titulo2 {
     text-shadow: 1px 1px 2px white, 0 0 1em wheat, 0 0 0.2em whitesmoke;
     color: black;
     font: 1.5em Georgia, "Bitstream Charter", "URW Bookman L", "Century Schoolbook L", serif;
     font-size: 12px;
 
 }
+
 .group:before,
 .group:after {
     content: "";
     display: table;
-} 
+}
+
 .group:after {
     clear: both;
 }
+
 .group {
-     zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+    zoom: 1;
+    /* For IE 6/7 (trigger hasLayout) */
 }
-.main-timeline{ font-family: 'Poppins', sans-serif; }
-.main-timeline:after{
+
+.main-timeline {
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-timeline:after {
     content: '';
     display: block;
     clear: both;
 }
-.main-timeline .timeline{
+
+.main-timeline .timeline {
     width: calc(50% + 70px);
     margin: 0 5px 0 0;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     float: left;
 }
-.main-timeline .timeline-content{
+
+.main-timeline .timeline-content {
     color: #555;
     background: #fff;
     min-height: 130px;
@@ -132,7 +179,8 @@ footer {
     display: block;
     position: relative;
 }
-.main-timeline .timeline-content:before{
+
+.main-timeline .timeline-content:before {
     content: "";
     background-color: #00C6DA;
     height: 100%;
@@ -141,8 +189,12 @@ footer {
     top: 0;
     right: 0;
 }
-.main-timeline .timeline-content:hover{ text-decoration: none; }
-.main-timeline .timeline-icon{
+
+.main-timeline .timeline-content:hover {
+    text-decoration: none;
+}
+
+.main-timeline .timeline-icon {
     color: #fff;
     font-size: 40px;
     line-height: 40px;
@@ -151,7 +203,8 @@ footer {
     top: 50%;
     right: 16px;
 }
-.main-timeline .timeline-year{
+
+.main-timeline .timeline-year {
     color: #333;
     font-size: 40px;
     font-weight: 700;
@@ -162,85 +215,120 @@ footer {
     top: 50%;
     right: 60px;
 }
-.main-timeline .title{
+
+.main-timeline .title {
     color: #00C6DA;
     font-size: 23px;
     font-weight: 600;
     text-transform: uppercase;
     margin: 0 0 5px;
 }
-.main-timeline .description{
+
+.main-timeline .description {
     font-size: 14px;
     margin: 0;
 }
-.main-timeline .timeline:nth-child(even){
+
+.main-timeline .timeline:nth-child(even) {
     float: right;
     margin: 0 0 0 5px;
 }
-.main-timeline .timeline:nth-child(even) .timeline-content{ padding: 30px 30px 30px 150px; }
-.main-timeline .timeline:nth-child(even) .timeline-content:before{
+
+.main-timeline .timeline:nth-child(even) .timeline-content {
+    padding: 30px 30px 30px 150px;
+}
+
+.main-timeline .timeline:nth-child(even) .timeline-content:before {
     right: auto;
     left: 0;
 }
-.main-timeline .timeline:nth-child(even) .timeline-icon{
+
+.main-timeline .timeline:nth-child(even) .timeline-icon {
     right: auto;
     left: 10px;
 }
-.main-timeline .timeline:nth-child(even) .timeline-year{
+
+.main-timeline .timeline:nth-child(even) .timeline-year {
     right: auto;
     left: 60px;
 }
-.main-timeline .timeline:nth-child(4n+2) .timeline-content:before{ background-color: #00A6F9; }
-.main-timeline .timeline:nth-child(4n+2) .title{ color: #00A6F9; }
-.main-timeline .timeline:nth-child(4n+3) .timeline-content:before{ background-color: #FF3E7D; }
-.main-timeline .timeline:nth-child(4n+3) .title{ color: #FF3E7D; }
-.main-timeline .timeline:nth-child(4n+4) .timeline-content:before{ background-color: #7438B9; }
-.main-timeline .timeline:nth-child(4n+4) .title{ color: #7438B9; }
+
+.main-timeline .timeline:nth-child(4n+2) .timeline-content:before {
+    background-color: #00A6F9;
+}
+
+.main-timeline .timeline:nth-child(4n+2) .title {
+    color: #00A6F9;
+}
+
+.main-timeline .timeline:nth-child(4n+3) .timeline-content:before {
+    background-color: #FF3E7D;
+}
+
+.main-timeline .timeline:nth-child(4n+3) .title {
+    color: #FF3E7D;
+}
+
+.main-timeline .timeline:nth-child(4n+4) .timeline-content:before {
+    background-color: #7438B9;
+}
+
+.main-timeline .timeline:nth-child(4n+4) .title {
+    color: #7438B9;
+}
+
 /*controle responsivo*/
-@media screen and (max-width:767px){
+@media screen and (max-width:767px) {
+
     .main-timeline .timeline,
-    .main-timeline .timeline:nth-child(even){
+    .main-timeline .timeline:nth-child(even) {
         width: 100%;
         margin: 0 0 30px;
     }
-    div{
+
+    div {
         text-align: center;
         height: auto;
         width: auto;
         left: auto;
         right: auto
     }
-    section{
+
+    section {
         text-align: center;
         height: auto;
         width: auto;
         left: auto;
         right: auto
     }
-   i#foto{
-        background: url('../img/icons8-javascript-96.png') no-repeat center;   
+
+    i#foto {
+        background: url('../img/icons8-javascript-96.png') no-repeat center;
         text-align: center;
         height: auto;
         width: auto;
         left: auto;
         right: auto
     }
-    .foto{
-        background-image: url("../img/icons8-javascript-32.png"); 
+
+    .foto {
+        background-image: url("../img/icons8-javascript-32.png");
         text-align: center;
         height: auto;
         width: auto;
         left: auto;
         right: auto
     }
-    #DivLateral{
+
+    #DivLateral {
         text-align: center;
         height: auto;
         width: auto;
         left: auto;
         right: auto
     }
-    #DivA{
+
+    #DivA {
         text-align: center;
         height: auto;
         width: auto;
@@ -248,69 +336,80 @@ footer {
         right: auto
     }
 }
-@media screen and (max-width:576px){
+
+@media screen and (max-width:576px) {
+
     .main-timeline .timeline .timeline-content,
-    .main-timeline .timeline:nth-child(even) .timeline-content{
+    .main-timeline .timeline:nth-child(even) .timeline-content {
         text-align: center;
         padding: 130px 25px 25px;
     }
+
     .main-timeline .timeline .timeline-content:before,
-    .main-timeline .timeline:nth-child(even) .timeline-content:before{
+    .main-timeline .timeline:nth-child(even) .timeline-content:before {
         height: 70px;
         width: 100%;
     }
+
     .main-timeline .timeline-icon,
-    .main-timeline .timeline:nth-child(even) .timeline-icon{
+    .main-timeline .timeline:nth-child(even) .timeline-icon {
         transform: translateY(0) translateX(-50%);
         top: 16px;
         left: 50%;
         right: auto;
     }
+
     .main-timeline .timeline-year,
-    .main-timeline .timeline:nth-child(even) .timeline-year{
+    .main-timeline .timeline:nth-child(even) .timeline-year {
         transform: translateY(0) translateX(-50%);
         top: 80px;
         left: 50%;
         right: auto;
     }
-    div{
+
+    div {
         text-align: center;
         height: auto;
         width: auto;
         left: auto;
         right: auto
     }
-    section{
+
+    section {
         text-align: center;
         height: auto;
         width: auto;
         left: auto;
         right: auto
     }
-   i#foto{
-        background: url('../img/icons8-javascript-96.png') no-repeat center;   
+
+    i#foto {
+        background: url('../img/icons8-javascript-96.png') no-repeat center;
         text-align: center;
         height: auto;
         width: auto;
         left: auto;
         right: auto
     }
-    .foto{
-        background-image: url("../img/icons8-javascript-32.png"); 
+
+    .foto {
+        background-image: url("../img/icons8-javascript-32.png");
         text-align: center;
         height: auto;
         width: auto;
         left: auto;
         right: auto
     }
-    #DivLateral{
+
+    #DivLateral {
         text-align: center;
         height: auto;
         width: auto;
         left: auto;
         right: auto
     }
-    #DivA{
+
+    #DivA {
         text-align: center;
         height: auto;
         width: auto;
