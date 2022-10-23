@@ -116,14 +116,18 @@ footer {
     font-style: normal;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
-
+#l1:hover{
+    background-color: rgba(231, 231, 209, 0.4);
+}
 #l2 {
     background-color: rgba(89, 170, 224, .8);
     border-radius: 20px;
     font-style: normal;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
+#l2:hover{
+    background-color: rgba(89, 170, 224, .4);
+}
 /*titulos sombra*/
 .titulo {
     text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
