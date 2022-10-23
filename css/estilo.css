@@ -10,13 +10,15 @@ p {
     font-style: normal;
     font-style: italic;
 }
-.esquerda{
-    position:relative;
+
+.esquerda {
+    position: relative;
     text-align: left;
     justify-items: left;
     display: flexbox;
 
 }
+
 .borda3d {
     border-radius: 50%;
     text-align: center;
@@ -300,6 +302,40 @@ footer {
         width: auto;
         left: auto;
         right: auto
+    }
+
+    .img4 {
+        transition: all 0.5s;
+        cursor: pointer;
+    }
+
+    .img4:hover {
+        -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+        filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+    }
+
+    .img5 {
+        transition: all .5s;
+        border: 10px solid transparent;
+    }
+
+    .img5:hover {
+        border: 10px solid #136497;
+        border-radius: 50%;
+    }
+
+    .img6 {
+        transition: all .5s;
+        border: 10px solid #eeeeee;
+    }
+
+    .img6:hover {
+        border: 10px solid #781f40;
+        border-radius: 50%;
+        -webkit-filter: drop-shadow(15px 7px 1px rgba(0, 0, 0, .5));
+        filter: drop-shadow(15px 7px 1px rgba(0, 0, 0, .5));
+        -webkit-transform: rotateZ(-360deg) scale(1.5);
+        transform: rotateZ(-360deg) scale(1.5);
     }
 
     i#foto {
