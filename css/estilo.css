@@ -75,7 +75,7 @@ p {
     align-items: center;
 }
 .imgtitulo {
- 
+
     width: 35px;
     height: 35px;
     border-radius: 5px;
@@ -111,9 +111,9 @@ footer {
 #DivA {
     position: relative;
     border-width: 2px;
-    width: 50%;
+    width: 45%;
     height: auto;
-    left: -3px;
+    left: -7px;
     float: left;
     align-items: center;
     border-radius: 10px;
@@ -122,7 +122,7 @@ footer {
 
 #l1 {
     background-color: rgba(231, 231, 209, 0.8);
-    border-radius: 20px;
+    border-radius: 10px;
     font-style: normal;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
@@ -131,7 +131,7 @@ footer {
 }
 #l2 {
     background-color: rgba(89, 170, 224, .8);
-    border-radius: 20px;
+    border-radius: 10px;
     font-style: normal;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -143,6 +143,7 @@ footer {
     text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
     color: white;
     font: 1.5em Georgia, "Bitstream Charter", "URW Bookman L", "Century Schoolbook L", serif;
+    font-size: 20px;
 
 }
 
