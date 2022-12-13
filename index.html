@@ -25,20 +25,32 @@
   <title>Portfólio</title>
 </head>
 
-<body>
-  <header>
-    <!--Título-->
-    <h1>Portfolio</h1>
-    <h6>Ultima atualização 06/12/2022</h6>
-  </header>
+<body  id="page-top">
   <section id="sobre">
+    <nav class="navbar container fixed-top navbar-expand-md navbar-light bg-light">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#page-top">Início</a>
+            <a class="nav-link" href="#projetos">Projetos</a>
+            <a class="nav-link" href="#trajetoria">Trajetoria</a>
+          </div>
+        </div>
+      </div>
+    </nav>
     <article>
       <div>
        <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-6">
           <p><img src="img/portfolio.jpg" width="120"> </p>
         </div>
+        <div class="col-md-6 text-center">
+          <h1>Portfolio</h1>
+          <h6>Ultima atualização 13/12/2022</h6>
+
+        </div>
       </div>
+      <div>
         <h3 class="alert alert-primary">Um pouco sobre</h3><br>
         <p> Olá, meu nome é <strong>Leandro Barbosa de Souza</strong>, atualmente não estou trabalhando para nenhuma
           empresa, só serviços de freelances, tenho experiência de 20 anos na área de TI, porém estou me
@@ -63,99 +75,74 @@
               <img class="imgtitulo" src="img/react_NATIVE.svg" atl="react native" title="REACT NATIVE"> |
               <img class="imgtitulo" src="img/docker.svg" atl="docker" title="DOKER">
             </p>
-
+          </div>
           </div>
       </div>
     </article>
   </section>
-  <br>
-  <section class="projeto">
+  <section class="projeto" id="projetos">
     <h2 class="alert alert-primary">Projetos</h2>
-    <div class="group esp">
-      <div id="DivA" class="">
-        <div class="row ">
-          <p class="titulo">Projeto Catedral Turismo (2022)</p>
+    <div class="card-group">
+      <div class="card">
+        <a href="" data-bs-toggle="modal" data-bs-target="#Modal" alt="..." target="_black" title="Modelo Desktop"><img src="img/moderno.png" class="card-img-top borda-img" alt="..."></a>
+        <div class="card-body">
+          <h5 class="card-title">Modelo - Desktop</h5>
+          <p class="card-text text-muted">
+               Login,Recuperação de senha via e-mail, cadastros:<wbr>(Cliente,Produto,Usuarios,vendas,Serviços,Dashbord).
+          </p>
         </div>
-        <div class="row">
-          <div id="l1">
-            <br>
-            <H6>
-              <p><strong>Tecnologias usadas </strong> - (Html,Css,JavaScript,Php,Mysql) - <strong class="titulocor">(Projeto feito mais recente)</strong>
-                viagens feitas durante o mês controle de em grafico de todo o processo, podendo
-                ser usado ate em transporte rodoviário e urbano.</p>
-            </H6>
-            <P class="titulo2">acesso: (user: administrador password:123admin)</P>
-            <H6><a href="https://lbstec1.websiteseguro.com/projetos/controleviagens/" target="_blank">Controle de viagens</a>
-            </H6>
-          </div>
+        <div class="card-footer">
+          <small class="text-muted">Tecnologias:Html,Css,Bootstrap,<wbr>JavaScript,Php,Mysql</small>
+        </div>
+        <!-- Modal -->
+<div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Anote o usuário para teste</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+      </div>
+      <div class="modal-body">
+        User: Administrador Password: 123admin
+      </div>
+      <div class="modal-footer">
+        <a href="https://lbstec1.websiteseguro.com/projetos/moderno/" alt="..." target="_black" title="Modelo Landing page"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+      <div class="card">
+        <a href="https://lbstec1.websiteseguro.com/projetos/landing/produto/" alt="..." target="_black" title="Modelo Landing page"><img src="img/produto.png" class="card-img-top borda-img" alt="..."></a>
+        <div class="card-body">
+          <h5 class="card-title">Landing page - Produto</h5>
+          <p class="card-text text-muted">Modelo de landing page para apresentação de produto.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Tecnologias:Html,Css,Bootstrap,<wbr>javascript.</small>
         </div>
       </div>
-      <div id="DivLateral">
-        <div class="row">
-          <p class="titulo">Curso HTML (2021)</p>
+      <div class="card">
+        <a href="https://lbstec1.websiteseguro.com/projetos/landing/parallax/#page-top" alt="..." target="_black" title="Modelo Landing page"><img src="img/parallax.png" class="card-img-top borda-img" alt="..."></a>
+        <div class="card-body">
+          <h5 class="card-title">Landing page - Serviço</h5>
+          <p class="card-text text-muted">Modelo de landing page para apresentação de prestação de serviço.</p>
         </div>
-        <div class="row">
-          <div id="l2"><br>
-            <H6>
-              <p><strong>Tecnologias usadas </strong> - (Html,Css,JavaScript) - Projeto construído ao longo do curso de HTML5 através de
-                vídeo aula pelo canal Curso em Vídeo,
-                outras tecnologias também abordadas nesse curso foram CSS e JavaScript.</p>
-            </H6>
-            <H6><a href="https://lbstec1.websiteseguro.com/projetos/htmlcss/" target="_blank">HLML Curso | </a>
-              <a href="https://github.com/leandbs2022/cursohtml" target="_blank">Github</a>
-            </H6>
-          </div>
+        <div class="card-footer">
+          <small class="text-muted">Tecnologias:Html,Css,Bootstrap,<wbr>javascript.</small>
         </div>
       </div>
     </div>
-    </div>
-    <div class="group">
-      <div id="DivA">
-        <div class="row ">
-          <p class="titulo">Projeto de modelo para Web e Desktop </p>
-        </div>
-        <div class="row">
-          <div id="l1">
-            <br>
-            <H6>
-              <p><strong>(Personalizado de acordo com a necessidade do cliente.)</strong></p>
-               <p>Login,Recuperação de senha via e-mail, cadastros:(Cliente,Produto,Usuarios,vendas,Serviços),geração de vendas para testes dashbord,
-               Impressão excel, Impressão PDF (Dompdf), Designer moderno, afins.. </p>
-               <p><strong>Tecnologias:</strong>Html,Css,Bootstrap,JavaScript,Php,Mysql</p>
-            </H6>
-            <P class="titulo2">acesso: (user: ADMINISTRADOR password:123admin)</P>
-            <H6><a href="https://lbstec1.websiteseguro.com/projetos/moderno/" target="_blank">Projeto Modelo</a>
-            </H6>
-          </div>
-        </div>
-      </div>
-      <div id="DivLateral">
-        <div class="row">
-          <p class="titulo">Projeto Curso Java (2020)</p>
-        </div>
-        <div class="row">
-          <div id="l2"><br>
-            <h6>
-              <p><strong>Tecnologias usadas </strong> - (Html,java,Css) - Projeto construído ao longo do curso de java no SENAI.</p>
-            </h6>
-            <H6><a href="#" target="" onclick="mens()">java Curso | </a>
-              <a href="https://github.com/leandbs2022/projeto_java_senai" target="_blank">Github</a>
-            </H6>
-          </div>
-        </div>
-      </div>
-    </div>
-    </div><br>
+    <br>
     <div class="borda3d">
       <div class="card-body">
-        <h5 class="card-title">Projetos Git</h5>
+        <h5 class="card-title">Meus projetos</h5>
         <p class="card-text"></p>
-       <a href="https://github.com/leandbs2022" target="_blank" class="btn btn-outline-success">Github leandbs2022</a>
+       <a href="https://github.com/leandbs2022" target="_blank" class="btn btn-outline-success"><img src="img/github.png"></a>
       </div>
     </div>
   </section>
-  <br>
-  <section class="trajetoria">
+  <section class="trajetoria" id="trajetoria">
     <h1 class="alert alert-primary">Trajetória</h1>
     <!--Inicio 1-->
     <div class="container">

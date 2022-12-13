@@ -116,14 +116,23 @@ footer {
     left: -7px;
     float: left;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 50px;
     background-color: rgb(241, 134, 33);
+}
+#sobre{
+    margin-top: 70px;
 }
 .titulocor{
     color: green;;
 }
 .esp{
     padding-bottom: 10px;
+}
+.borda-img{
+width: 100%;
+border-radius: 20px;
+padding: 5px;
+
 }
 #l1 {
     background-color: rgba(231, 231, 209, 0.8);
