@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Ícones (versão gratuita)-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+    <!-- CSS (Bootstrap)-->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/css/bootstrap.min.css">
+      <!-- JavaScript -->
+  <script src="js/js/bootstrap.bundle.min.js"></script>
+  <script src="js/menu.js"></script>
+  <title>Landing Page 2</title>
+</head>
+<body>
+  <section class="menutrans">
+     <!-- Navegação-->
+     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container">
+          <a class="navbar-brand" href="#page-top"><img src="assets/img/navbar-logo.svg" alt="..." /></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+              Menu
+              <i class="fas fa-bars ms-1"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                  <li class="nav-item"><a class="nav-link" href="#page-top">Home</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#apresentacao">Apresentação</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#portifolio">Portifólio</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+  </section>
+  <div class="wrapper">
+    <main>
+      <section class="module parallax parallax-1" id="page-top">
+        <h1>Seja bem vindo</h1>
+      </section>
+      <section class="module content">
+        <div class="container">
+          <h2>Desenpenho e Inteligentes.</h2>
+          <img class="bordar-img" src="img/car.jpg">
+          <blockquote class="espaco">
+            <p>As principais montadoras do mundo estão fazendo acordos para colocar inteligência artificial (AI) nos
+              veículos, gerando oportunidades para as marcas. Os mecanismos como Alexa (Amazon), Google Assistente,
+              Cortana (Microsoft) e Siri (Apple) permitirão aos motoristas ensinar as máquinas a acender os faróis ou
+              abrir a garagem quando necessário</p>
+          </blockquote >
+          <img class="bordar-img" src="img/car1.jpg">
+          <blockquote class="espaco">
+            <P>A Porsche usa inteligência artificial (IA) no desenvolvimento de veículos para tornar os sistemas de
+              direção ainda mais eficientes e sustentáveis ​​e otimizar ainda mais os processos de desenvolvimento.</P>
+            <a href="https://www.porsche.com/stories/tag/artificialintelligence" target="_black"> <button class="btn btn-info"> Referência e detalhes</button></a>
+          </blockquote>
+        </div>
+      </section>
+      <section class="module parallax parallax-2" id="apresentacao">
+        <h1>Apresentação</h1>
+      </section>
+      <section class="module content">
+        <div class="container">
+          <h2>Inteligência Artificial da Tesla</h2>
+          <p id="pos-video">
+          <h1><iframe id="apresen-video" src="https://www.youtube.com/embed/jWreyC2l-dw" title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+          </h1>
+          </p>
+          <p>
+            Desenvolvemos e implantamos autonomia em escala em veículos, robôs e muito mais. Acreditamos que uma
+            abordagem baseada em IA avançada para visão e planejamento, suportada pelo uso eficiente de hardware de
+            inferência, é a única maneira de obter uma solução geral para direção totalmente autônoma e além.
+          </p>
+          <p>
+            <a href="https://www.tesla.com/AI" target="_black"><button class="btn btn-info"> Referência e detalhes</button></a>
+          </p>
+        </div>
+      </section>
+
+      <section class="module parallax parallax-3" id="portifolio">
+        <h1>Portifólio</h1>
+      </section>
+
+      <section class="module content">
+        <div class="container">
+          <h2>Qualquer texto aqui..</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quisquam reiciendis unde voluptatem
+            dignissimos! Adipisci alias rerum commodi ad excepturi. Quod aut maxime non architecto numquam vel et,
+            magnam eius!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quisquam reiciendis unde voluptatem
+            dignissimos! Adipisci alias rerum commodi ad excepturi. Quod aut maxime non architecto numquam vel et,
+            magnam eius!
+          </p>
+        </div>
+      </section>
+    </main>
+  </div>
+  <!-- Contatos-->
+  <section class="page-section" id="contact">
+    <div class="container" id="contato">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">CONTATE-NOS</h2>
+            <h3 class="section-subheading text-muted"></h3>
+        </div>
+        <form id="contactForm" method="post">
+            <div class="row align-items-stretch mb-5">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <!-- Name-->
+                        <input class="form-control" id="name" name="tname" type="text" placeholder="Seu nome*" data-sb-validations="required" />
+                        <div class="invalid-feedback" data-sb-feedback="name:required">Seu nome*</div>
+                    </div>
+                    <div class="form-group">
+                        <!-- Email-->
+                        <input class="form-control" id="email" name="temail" type="email" placeholder="Seu e-mail*" data-sb-validations="required,email" />
+                        <div class="invalid-feedback" data-sb-feedback="email:required">Seu e-mail*</div>
+                        <div class="invalid-feedback" data-sb-feedback="email:email">email não valído</div>
+                    </div>
+                    <div class="form-group mb-md-0">
+                        <!--Telefone-->
+                        <input class="form-control" id="phone" name="tphone" type="tel" placeholder="Seu telefone*" data-sb-validations="required" />
+                        <div class="invalid-feedback" data-sb-feedback="phone:required">Número telefone</div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group form-group-textarea mb-md-0">
+                        <!-- Mensagem-->
+                        <textarea class="form-control" id="message" name="tmessage" placeholder="Sua mensagem*" data-sb-validations="required"></textarea>
+                        <div class="invalid-feedback" data-sb-feedback="message:required">Digite a Mensagem*</div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center"><input type="submit" class="btn btn-info btn-xl text-uppercase" id="cenviar" name="tenviar" value="Enviar mensagem"></div>
+        </form>
+    </div>
+</section>
+  <footer class="footer py-4 alert alert-dark " style="background-color: #2E2E2E;" id="contato"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://api.whatsapp.com/send?phone=556184626016&text=Bem a LBSTEC" style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+      z-index:1000;" target="_blank">
+    <i style="margin-top:16px" class="" title="Whatsapp"><img src="img/socialwhatsapp.png"></i>
+    </a>
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-lg-4 text-lg-start fontebranca">Copyright &copy; Seu site 2022</div>
+            <div class="col-lg-4 my-3 my-lg-0 text-center">
+                <p class="borda fontebranca direita">
+                    <a href="https://www.instagram.com/" target="_black"><img class="imgtitulo" src="img/instagram.png" atl="instagram" title="instagram"></a> |
+                    <img class="imgtitulo" src="img/Twitter.svg" atl="Twitter" title="Twitter"> |
+                    <img class="imgtitulo" src="img/face.png" atl="facebook" title="facebook"> | <img class="imgtitulo" src="img/telegram.svg" atl="telegram" title="telegram">
+            </div>
+
+            </div>
+        </div>
+
+</body>
+</footer>
+</body>
+
+</html>
