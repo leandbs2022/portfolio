@@ -4,7 +4,7 @@
     border: 0;
 }
 body {
-    
+
     font: normal 15pt Arial;
     margin: 0;
     padding: 0;
@@ -25,6 +25,14 @@ p {
     width: 150px;
     height: 150px;
     border-radius: 50%;
+}
+.container-body{
+    margin: 0 auto;
+}
+.img-gif{
+    width: 100px;
+    height:100px;
+    margin: -20px;
 }
 .img-foto-esquerda {
     width: 150px;
