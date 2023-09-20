@@ -26,13 +26,15 @@ p {
     height: 150px;
     border-radius: 50%;
 }
-.container-body{
-    margin: 0 auto;
+.img-png{
+    width: 80px;
+    height: 80px;
+    margin: -19px;
 }
 .img-gif{
-    width: 100px;
-    height:100px;
-    margin: -20px;
+    width: 80px;
+    height:80px;
+    margin: -19px;
 }
 .img-foto-esquerda {
     width: 150px;
