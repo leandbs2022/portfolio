@@ -3,7 +3,14 @@
     padding: 0;
     border: 0;
 }
+#curriculares{
+    background-color: #00A6F9;
+    text-align: center;
+}
+p#curriculares:hover{
+    background-color: #136497;
 
+}
 body {
 
     font: normal 15pt Arial;
