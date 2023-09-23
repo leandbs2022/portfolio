@@ -81,8 +81,18 @@
 
 @media screen and (max-width: 900px) {
   iframe{
-    width: auto;
-    height: 100svh;
+    width: 600px;
+    height: 600px;
     display: block;
+    margin:0 auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  iframe{
+    width: auto;
+    height: auto;
+    display:block;
+    margin:0 auto;
   }
 }
