@@ -233,6 +233,25 @@ a {
     width: 100%;
 }
 
+.efeito-2 {
+    background-color: #28348a;
+}
+
+.efeito-2::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 280px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    transition: all 2s ease;
+}
+
+.efeito-2:hover:before {
+    width: 100%;
+}
 .esquerda {
     position: relative;
     text-align: left;
