@@ -3,14 +3,17 @@
     padding: 0;
     border: 0;
 }
-#curriculares{
+
+#curriculares {
     background-color: #00A6F9;
     text-align: center;
 }
-p#curriculares:hover{
+
+p#curriculares:hover {
     background-color: #136497;
 
 }
+
 body {
 
     font: normal 15pt Arial;
@@ -36,11 +39,13 @@ p {
     height: 150px;
     border-radius: 50%;
 }
+
 .img-png-1 {
     width: 50px;
     height: 50px;
     margin: -0px;
 }
+
 .img-png {
     width: 80px;
     height: 80px;
@@ -84,6 +89,21 @@ a {
     border-style: double;
     background: #000;
 
+}
+
+#btn-final {
+    box-shadow: 5px 5px #888888;
+    background-color: azure;
+    opacity: 0.3;
+    width: auto;
+    margin-top: 30px;
+}
+
+#btn-final:hover {
+    transition: 0.9s ease-in-out;
+    box-shadow: 5px 5px #0a0a0a;
+    background-color: rgb(10, 170, 245);
+    opacity: 1;
 }
 
 .card-texto {
@@ -256,6 +276,7 @@ a {
 .efeito-2:hover:before {
     width: 100%;
 }
+
 .esquerda {
     position: relative;
     text-align: left;
