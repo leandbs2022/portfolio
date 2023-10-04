@@ -90,22 +90,25 @@ a {
     background: #000;
 
 }
-
+.img-voltar{
+    width: auto;
+    height: 50px;
+}
 #btn-final {
+    padding: 2px 5px;
+    text-transform: uppercase;
+    border-radius: 5px;
     box-shadow: 5px 5px #888888;
     background-color: azure;
     opacity: 0.3;
-    width: auto;
     margin-top: 30px;
 }
-
 #btn-final:hover {
     transition: 0.9s ease-in-out;
     box-shadow: 5px 5px #0a0a0a;
-    background-color: rgb(10, 170, 245);
+    background-color: rgb(231, 238, 241);
     opacity: 1;
 }
-
 .card-texto {
     font-weight: bold;
     justify-content: center;
