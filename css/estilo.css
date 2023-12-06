@@ -678,7 +678,7 @@ footer {
         width: 100%;
         margin: 0 0 30px;
     }
-    
+
     div {
         text-align: center;
         height: auto;
@@ -842,5 +842,8 @@ footer {
         width: auto;
         left: auto;
         right: auto
+    }
+    .font-tam{
+        font-size: 15px;
     }
 }
