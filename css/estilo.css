@@ -26,7 +26,10 @@ p {
     font-style: normal;
     font-style: italic;
 }
-
+.tecimg{
+margin: 0 auto ;
+width: 500px;
+}
 .section-3 {
     display: grid;
     flex-direction: column;
