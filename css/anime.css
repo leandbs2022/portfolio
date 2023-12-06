@@ -1,0 +1,110 @@
+/*data-anime*/
+[data-anime] {
+  opacity: 0;
+  transition: .3s;
+}
+
+[data-anime="left"] {
+  transform: translate3d(-50px, 0, 0);
+}
+
+[data-anime="right"] {
+  transform: translate3d(50px, 0, 0);
+}
+
+[data-anime="top"] {
+  transform: translate3d(0, -50px, 0);
+}
+
+[data-anime].animate {
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
+}
+
+/*outras animações*/
+[data-anime='anime-visible'] {
+  animation: visible-nav 5s;
+}
+
+[data-anime='anime-1'] {
+  animation: visible-nav 10s;
+}
+
+[data-anime='anime-2'] {
+  animation: visible-nav 20s;
+}
+
+[data-anime='anime-3'] {
+  animation: visible-nav 30s;
+}
+[data-anime='coming-right'] {
+  animation: go-back 5s ease-in;
+}
+[data-anime='coming-left'] {
+  animation: go-next 5s ease-out;
+}
+[data-anime='coming'] {
+  animation: .5s linear 1s infinite alternate slidein;
+}
+/*animação*/
+@keyframes kick {
+  0% {
+    transform: translateX(100px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes go-back {
+  0% {
+    transform: translateX(100px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes go-next {
+  0% {
+    transform: translateX(0px);
+  }
+
+  50% {
+    transform: translateX(100px);
+  }
+}
+
+@keyframes move-img {
+  10% {
+    transform: translate3d(0, 0, 50px);
+  }
+}
+
+@keyframes animate-01 {
+
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+
+    transform: rotate(360deg);
+  }
+
+}
+
+@keyframes visible-nav {
+
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+
+    opacity: 1;
+  }
+
+}
